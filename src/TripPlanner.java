@@ -16,6 +16,9 @@ public class TripPlanner {
         int money=input.nextInt();
         System.out.print("What is the three letter curreny Symbol for your travel destination?");
         String symbol=input.next();
+        System.out.print("How many "+symbol+" are there in 1 USD?");
+        Double currency=input.nextDouble();
+        System.out.print("\n\n");
 
     }
 }
