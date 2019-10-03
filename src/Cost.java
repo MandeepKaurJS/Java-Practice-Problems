@@ -13,7 +13,7 @@ public class Cost {
             } else if (num % 5 == 0) {
                 System.out.println("Buzz");
             } else {
-                System.out.println("not Fizz nor Buzz: "+num);
+                System.out.println("Not Fizz nor Buzz: "+num);
             }
         }
     }
