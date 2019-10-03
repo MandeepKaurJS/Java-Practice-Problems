@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b7a13e4-1bc6-4631-beed-d8bc6244039c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SquareRoot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SortingStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/Cost.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/Cost.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SquareRoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SquareRoot.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,11 +76,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SquareRoot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            <state relative-caret-position="272">
+              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SortingStrings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -106,11 +117,13 @@
         <option value="$PROJECT_DIR$/src/TripPlanner.java" />
         <option value="$PROJECT_DIR$/src/Cost.java" />
         <option value="$PROJECT_DIR$/src/SquareRoot.java" />
+        <option value="$PROJECT_DIR$/src/SortingStrings.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="945" />
+    <option name="x" value="977" />
+    <option name="y" value="22" />
     <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
@@ -158,7 +171,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Cost">
+  <component name="RunManager" selected="Application.SquareRoot">
     <configuration name="Cost" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Cost" />
       <module name="HelloWorld" />
@@ -173,8 +186,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Strange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strange" />
+    <configuration name="SquareRoot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SquareRoot" />
       <module name="HelloWorld" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -196,11 +209,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SquareRoot" />
         <item itemvalue="Application.Cost" />
         <item itemvalue="Application.TripPlanner" />
         <item itemvalue="Application.MathematicalOprations" />
         <item itemvalue="Application.VariableDemo" />
-        <item itemvalue="Application.Strange" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +231,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="756" y="0" width="784" height="832" extended-state="0" />
+    <frame x="782" y="18" width="784" height="832" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32458565" />
@@ -314,8 +327,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SquareRoot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        <state relative-caret-position="272">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SortingStrings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
         </state>
       </provider>
     </entry>
