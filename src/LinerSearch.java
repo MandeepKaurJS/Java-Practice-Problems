@@ -20,9 +20,7 @@ public class LinerSearch {
             if(array[i]==search) {
                 System.out.println("Find the search value at: " + i + " Location");
             }
-            if(array[i]!=search){
-                System.out.println("Item doesn't exist in list.");
-            }
+
 
         }
     }
