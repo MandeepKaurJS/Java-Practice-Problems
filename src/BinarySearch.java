@@ -13,7 +13,7 @@ public class BinarySearch {
         }
         int search=input.nextInt();
         for(int i=1;i<count;i++){
-            if(count<0){
+            if(count<1){
                 System.out.println("Item doesn't Exist");
             }
             array[i]=array[i]+(count-1)/2;
@@ -26,7 +26,10 @@ public class BinarySearch {
             }
             if(array[i]==search){
                 System.out.println("Items find"+ i);
+            }else{
+                System.out.println("Doesn't exist");
             }
+
         }
     }
 }
