@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b7a13e4-1bc6-4631-beed-d8bc6244039c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Anagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BubbleSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BubbleSort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -109,8 +108,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BubbleSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="23" selection-start-column="23" selection-end-column="23" />
+            <state relative-caret-position="136">
+              <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -143,12 +142,13 @@
         <option value="$PROJECT_DIR$/src/LinerSearch.java" />
         <option value="$PROJECT_DIR$/src/BinarySearch.java" />
         <option value="$PROJECT_DIR$/src/Anagram.java" />
+        <option value="$PROJECT_DIR$/src/BubbleSort.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="803" />
-    <option name="y" value="130" />
+    <option name="x" value="832" />
+    <option name="y" value="1" />
     <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
@@ -196,9 +196,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LinerSearch">
-    <configuration name="Cost" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Cost" />
+  <component name="RunManager" selected="Application.BubbleSort">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BubbleSort" />
       <module name="HelloWorld" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -234,11 +234,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.LinerSearch" />
         <item itemvalue="Application.SumofArrayElement" />
         <item itemvalue="Application.SortingStrings" />
         <item itemvalue="Application.SquareRoot" />
-        <item itemvalue="Application.Cost" />
       </list>
     </recent_temporary>
   </component>
@@ -274,14 +274,21 @@
       <option name="project" value="LOCAL" />
       <updated>1570148474442</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added new java class which implement Bubble Sort algorithm.">
+      <created>1570469192295</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1570469192295</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="643" y="104" width="784" height="832" extended-state="0" />
+    <frame x="666" y="1" width="784" height="832" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33425415" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33425415" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -312,7 +319,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added new for loop" />
     <MESSAGE value="Added new java class which implement Binary Search algorithm." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added new java class which implement Binary Search algorithm." />
+    <MESSAGE value="Added new java class which implement Bubble Sort algorithm." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new java class which implement Bubble Sort algorithm." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/VariableDemo.java">
@@ -419,8 +427,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BubbleSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        <state relative-caret-position="136">
+          <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
         </state>
       </provider>
     </entry>
