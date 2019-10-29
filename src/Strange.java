@@ -4,6 +4,12 @@ public class Strange {
         third();
         second();
         third();
+        int f=8;
+        int s=19;
+        f=f+s;
+        s=f-s;
+        f=f-s;
+        System.out.println(f+" "+s);
     }
     public  static void first(){
         System.out.println("Inside first method.");
