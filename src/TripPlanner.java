@@ -1,5 +1,6 @@
 import com.sun.deploy.util.SyncAccess;
-
+import java.text.DecimalFormat;
+import java.util.*;
 import java.util.Scanner;
 public class TripPlanner {
     public static void main(String[] args){
@@ -33,6 +34,43 @@ public class TripPlanner {
         double budgetConvDaily = budgetUSDDaily*money;
 
         System.out.println("Your total budget in "+ symbol + " is "+ budgetConv +" "+ symbol +" ,which per day is "+ budgetConvDaily +" "+ symbol);
+        String timeGreeting = "What is the time difference in hours betweem your home and the destination ? ";
+        String timeDiffMidnightGreetingBegin = "That means when it is midnight at home it will be ";
+        String timeDiffMidnightGreetingEnd = " in your travel destination";
+        String timeDiffNoonGreeting = "And when it is noon at home it will be ";
+
+        //Greeting1
+        System.out.print(timeGreeting);
+        // Get timeDiff in hrs = int
+        int timeDiff = input.nextInt();
+
+        //ComputeText1
+        // Get timeDiff at Midnight
+        int timeDiffMidnight = (24+timeDiff) % 24;
+
+        System.out.println(timeDiffMidnightGreetingBegin + timeDiffMidnight + timeDiffMidnightGreetingEnd);
+
+        //ComputeText2
+        // Get timeDiff at Noon
+        int timeDiffNoon = (12+timeDiff) % 24;
+
+        System.out.println(timeDiffNoonGreeting + timeDiffNoon);
+        DecimalFormat df = new DecimalFormat("0.00");
+
+        // Sentences
+        String countryAreaGreeting = "What is the square area of your destination country in km2? ";
+        String countryAreaMilesGreeting = "In miles2 it will be ";
+
+        //Greeting1
+        System.out.print(countryAreaGreeting);
+        // Get country area in km2
+        int countryArea = input.nextInt();
+
+        //ComputeText1
+        // Get countryArea in miles2 using double
+        double countryAreaMiles = (double)countryArea/1.6;
+
+        System.out.println(countryAreaMilesGreeting + df.format(countryAreaMiles));
 
     }
 }
