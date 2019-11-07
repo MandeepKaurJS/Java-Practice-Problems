@@ -6,7 +6,8 @@ public class IfElseDemo {
        int grade=input.nextInt();
        if(grade>80){
            System.out.println("welcome to our campus.");
-       }else{
+       }
+       else{
            System.out.println("PLease try again.");
        }
 
