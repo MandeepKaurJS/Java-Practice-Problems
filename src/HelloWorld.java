@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class HelloWorld {
     public static void main(String[] args){
         System.out.println("\"Quotes\"");
@@ -15,10 +17,25 @@ public class HelloWorld {
         testing();
         System.out.println("have any \"errors\" in it");
         System.out.println();
+        isplaindrome("abc");
 
     }
     public static void testing() {
         System.out.println("\"Quotes\"");
         System.out.println("Slashes \\//");
+    }
+    public static void  isplaindrome(String str){
+        String rev="";
+        Scanner input=new Scanner(System.in);
+        str=input.nextLine();
+        for(int i=str.length()-1;i>=0;i--){
+            rev=rev+str.charAt(i);
+            if(str==rev){
+                System.out.println("true");
+            }else{
+                System.out.println("False");
+            }
+        }
+
     }
 }

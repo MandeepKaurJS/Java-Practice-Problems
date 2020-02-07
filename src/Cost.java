@@ -33,6 +33,10 @@ public class Cost {
             //System.out.println("hi"+a.get(i));
             //System.out.println("ji"+b.get(j));
             int count=0;
+            String m="hello World";
+            //String mesg=m.substring(6,12);
+            String[] n={"abs","0",""};
+
             if(a.get(i)<b.get(j)){
                 //System.out.println(count++);
                 count=count++;
